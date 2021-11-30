@@ -2,4 +2,11 @@
 python --version
 pip install --upgrade azure-cli
 pip install --upgrade azureml-sdk
-pip install -r requirements.txt
+pip install scikit-learn
+pip install joblib
+pip install numpy
+pip install pandas
+pip install pytest
+pip install pytest-cov
+pip install lightgbm
+pip install inference-schema[numpy-support]
