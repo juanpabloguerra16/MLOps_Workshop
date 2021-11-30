@@ -1,6 +1,6 @@
 #!/bin/bash
 python --version
-pip install --upgrade azure-cli
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 pip install --upgrade azureml-sdk
 pip install scikit-learn
 pip install joblib
